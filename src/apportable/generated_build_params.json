@@ -89,7 +89,7 @@
     ], 
     "assets": [
         {
-            "asset": "../GameLib/Vendor/submodules/Facebook/src/var/folders/12/8ftbg0cs4zb8xynj0k0h2y7r491v9d/T/tmpVAkeiw/TARGET_BUILD_DIR/libfacebook_ios_sdk.a", 
+            "asset": "../GameLib/Vendor/submodules/Facebook/src/var/folders/12/8ftbg0cs4zb8xynj0k0h2y7r491v9d/T/tmpnUFzDM/TARGET_BUILD_DIR/libfacebook_ios_sdk.a", 
             "target": "../../../../../../../../Volumes/Booyah/src/ht-a/hostile-takeover-ios/GameClient/normal"
         }
     ], 
