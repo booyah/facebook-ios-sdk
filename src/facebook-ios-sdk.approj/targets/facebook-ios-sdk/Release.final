@@ -1,108 +1,22 @@
 {
     "xcode_project": "facebook-ios-sdk.xcodeproj", 
-    "moms": [], 
-    "sources": [
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "FBDialog.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "FBFrictionlessRequestSettings.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "FBLoginDialog.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "FBRequest.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "Facebook.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "JSON/NSObject+SBJSON.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "JSON/NSString+SBJSON.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "JSON/SBJSON.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "JSON/SBJsonBase.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "JSON/SBJsonParser.m", 
-            "flags": [], 
-            "defines": {}
-        }, 
-        {
-            "language": "objc", 
-            "header_paths": [], 
-            "source": "JSON/SBJsonWriter.m", 
-            "flags": [], 
-            "defines": {}
-        }
-    ], 
-    "infoplists": [], 
-    "defines": {
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 30000
-    }, 
+    "java_sources": [], 
     "pchs": [
         "./facebook_ios_sdk_Prefix.pch"
     ], 
-    "assets": [
-        {
-            "asset": "../GameLib/Vendor/submodules/Facebook/src/var/folders/12/8ftbg0cs4zb8xynj0k0h2y7r491v9d/T/tmpnUFzDM/TARGET_BUILD_DIR/libfacebook_ios_sdk.a", 
-            "target": "../../../../../../../../Volumes/Booyah/src/ht-a/hostile-takeover-ios/GameClient/normal"
-        }
-    ], 
-    "type": "static-lib", 
+    "assets": [], 
+    "link_flags": [], 
+    "hmaps": {}, 
+    "config": {}, 
     "header_paths": [
         {
-            "type": "iquote", 
             "header_path": "facebook_ios_sdk-generated-files.hmap", 
+            "type": "iquote", 
             "hmap": {}
         }, 
         {
-            "type": "I", 
             "header_path": "facebook_ios_sdk-own-target-headers.hmap", 
+            "type": "I", 
             "hmap": {
                 "SBJsonBase.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
@@ -119,10 +33,10 @@
                     "suffix": "SBJSON.h", 
                     "key": "facebook_ios_sdk/SBJSON.h"
                 }, 
-                "facebook_ios_sdk/FBFrictionlessRequestSettings.h": {
+                "facebook_ios_sdk/FBRequest.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
-                    "suffix": "FBFrictionlessRequestSettings.h", 
-                    "key": "facebook_ios_sdk/FBFrictionlessRequestSettings.h"
+                    "suffix": "FBRequest.h", 
+                    "key": "facebook_ios_sdk/FBRequest.h"
                 }, 
                 "SBJsonParser.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
@@ -149,10 +63,10 @@
                     "suffix": "Facebook.h", 
                     "key": "Facebook.h"
                 }, 
-                "facebook_ios_sdk/FBRequest.h": {
+                "facebook_ios_sdk/FBFrictionlessRequestSettings.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
-                    "suffix": "FBRequest.h", 
-                    "key": "facebook_ios_sdk/FBRequest.h"
+                    "suffix": "FBFrictionlessRequestSettings.h", 
+                    "key": "facebook_ios_sdk/FBFrictionlessRequestSettings.h"
                 }, 
                 "FBFrictionlessRequestSettings.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
@@ -247,8 +161,8 @@
             }
         }, 
         {
-            "type": "I", 
             "header_path": "facebook_ios_sdk-all-target-headers.hmap", 
+            "type": "I", 
             "hmap": {
                 "facebook_ios_sdk/NSObject+SBJSON.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
@@ -270,20 +184,15 @@
                     "suffix": "FBConnect.h", 
                     "key": "facebook_ios_sdk/FBConnect.h"
                 }, 
-                "facebook_ios_sdk/SBJsonParser.h": {
-                    "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
-                    "suffix": "SBJsonParser.h", 
-                    "key": "facebook_ios_sdk/SBJsonParser.h"
-                }, 
                 "facebook_ios_sdk/SBJsonWriter.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
                     "suffix": "SBJsonWriter.h", 
                     "key": "facebook_ios_sdk/SBJsonWriter.h"
                 }, 
-                "facebook_ios_sdk/facebook_ios_sdk_Prefix.pch": {
-                    "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
-                    "suffix": "facebook_ios_sdk_Prefix.pch", 
-                    "key": "facebook_ios_sdk/facebook_ios_sdk_Prefix.pch"
+                "facebook_ios_sdk/SBJsonParser.h": {
+                    "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
+                    "suffix": "SBJsonParser.h", 
+                    "key": "facebook_ios_sdk/SBJsonParser.h"
                 }, 
                 "facebook_ios_sdk/SBJSON.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
@@ -295,10 +204,10 @@
                     "suffix": "FBFrictionlessRequestSettings.h", 
                     "key": "facebook_ios_sdk/FBFrictionlessRequestSettings.h"
                 }, 
-                "facebook_ios_sdk/FBRequest.h": {
+                "facebook_ios_sdk/FBDialog.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
-                    "suffix": "FBRequest.h", 
-                    "key": "facebook_ios_sdk/FBRequest.h"
+                    "suffix": "FBDialog.h", 
+                    "key": "facebook_ios_sdk/FBDialog.h"
                 }, 
                 "facebook_ios_sdk/FBLoginDialog.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
@@ -310,10 +219,15 @@
                     "suffix": "JSON.h", 
                     "key": "facebook_ios_sdk/JSON.h"
                 }, 
-                "facebook_ios_sdk/FBDialog.h": {
+                "facebook_ios_sdk/facebook_ios_sdk_Prefix.pch": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
-                    "suffix": "FBDialog.h", 
-                    "key": "facebook_ios_sdk/FBDialog.h"
+                    "suffix": "facebook_ios_sdk_Prefix.pch", 
+                    "key": "facebook_ios_sdk/facebook_ios_sdk_Prefix.pch"
+                }, 
+                "facebook_ios_sdk/FBRequest.h": {
+                    "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
+                    "suffix": "FBRequest.h", 
+                    "key": "facebook_ios_sdk/FBRequest.h"
                 }, 
                 "facebook_ios_sdk/Facebook.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
@@ -323,8 +237,8 @@
             }
         }, 
         {
-            "type": "iquote", 
             "header_path": "facebook_ios_sdk-project-headers.hmap", 
+            "type": "iquote", 
             "hmap": {
                 "SBJsonBase.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
@@ -351,25 +265,25 @@
                     "suffix": "Facebook.h", 
                     "key": "Facebook.h"
                 }, 
-                "facebook_ios_sdk_Prefix.pch": {
-                    "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
-                    "suffix": "facebook_ios_sdk_Prefix.pch", 
-                    "key": "facebook_ios_sdk_Prefix.pch"
-                }, 
                 "FBFrictionlessRequestSettings.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
                     "suffix": "FBFrictionlessRequestSettings.h", 
                     "key": "FBFrictionlessRequestSettings.h"
+                }, 
+                "facebook_ios_sdk_Prefix.pch": {
+                    "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
+                    "suffix": "facebook_ios_sdk_Prefix.pch", 
+                    "key": "facebook_ios_sdk_Prefix.pch"
                 }, 
                 "SBJSON.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
                     "suffix": "SBJSON.h", 
                     "key": "SBJSON.h"
                 }, 
-                "SBJsonWriter.h": {
+                "SBJsonParser.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
-                    "suffix": "SBJsonWriter.h", 
-                    "key": "SBJsonWriter.h"
+                    "suffix": "SBJsonParser.h", 
+                    "key": "SBJsonParser.h"
                 }, 
                 "FBLoginDialog.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
@@ -381,10 +295,10 @@
                     "suffix": "FBConnect.h", 
                     "key": "FBConnect.h"
                 }, 
-                "SBJsonParser.h": {
+                "SBJsonWriter.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/JSON/", 
-                    "suffix": "SBJsonParser.h", 
-                    "key": "SBJsonParser.h"
+                    "suffix": "SBJsonWriter.h", 
+                    "key": "SBJsonWriter.h"
                 }, 
                 "FBRequest.h": {
                     "prefix": "../GameLib/Vendor/submodules/Facebook/src/", 
@@ -397,14 +311,88 @@
                     "key": "NSString+SBJSON.h"
                 }
             }
-        }, 
-        {
-            "type": "I", 
-            "header_path": "../../../../../../Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
         }
     ], 
     "modules": [], 
-    "hmaps": {}, 
+    "sources": [
+        {
+            "source": "FBDialog.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "FBFrictionlessRequestSettings.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "FBLoginDialog.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "FBRequest.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Facebook.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "JSON/NSObject+SBJSON.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "JSON/NSString+SBJSON.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "JSON/SBJSON.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "JSON/SBJsonBase.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "JSON/SBJsonParser.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "JSON/SBJsonWriter.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }
+    ], 
     "version": "1", 
     "flags": [
         "-fwritable-strings", 
@@ -431,8 +419,16 @@
             "type": "objc"
         }
     ], 
+    "infoplists": [], 
     "deps": [
         "UIKit"
     ], 
-    "config": {}
+    "libs": [], 
+    "java_sourcepaths": [], 
+    "java_res_dirs": [], 
+    "type": "static-lib", 
+    "java_libs": [], 
+    "defines": {
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 30000
+    }
 }
