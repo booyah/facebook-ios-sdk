@@ -81,7 +81,6 @@
         }
     ], 
     "infoplists": [], 
-    "libs": [], 
     "defines": {
         "__IPHONE_OS_VERSION_MIN_REQUIRED": 30000
     }, 
@@ -90,8 +89,8 @@
     ], 
     "assets": [
         {
-            "asset": "../../../../../../var/folders/3j/3lvtj7yx5bn57r37mjys_lv00000gp/T/tmpkw6xQE/TARGET_BUILD_DIR/libfacebook_ios_sdk.a", 
-            "target": "../../../../../../../../Volumes/Vault/Applications/Hostile/hostile-takeover-ios/GameClient/normal"
+            "asset": "../../../../../../var/folders/12/8ftbg0cs4zb8xynj0k0h2y7r491v9d/T/tmp_xDHDv/TARGET_BUILD_DIR/libfacebook_ios_sdk.a", 
+            "target": "../../../../../../../../Volumes/Booyah/src/ht-a/hostile-takeover-ios/GameClient/normal"
         }
     ], 
     "type": "static-lib", 
